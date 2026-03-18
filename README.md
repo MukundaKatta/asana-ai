@@ -1,43 +1,13 @@
 # asana-ai
 
-**Asana — AI Yoga Pose Corrector. Real-time yoga pose correction using computer vision.**
+Stub Python project. Described as an AI yoga/asana assistant, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (AsanaAi) with placeholder methods that each return a fixed dictionary without doing any real work. There is no pose detection, no yoga instruction, no computer vision - just stubs.
 
-## Quick Start
-```python
-from src.core import AsanaAi
- instance = AsanaAi()
-r = instance.process(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No CV or fitness libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `process()` | Process |
-| `analyze()` | Analyze |
-| `transform()` | Transform |
-| `validate()` | Validate |
-| `export()` | Export |
-| `get_stats()` | Get stats |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working yoga/asana functionality exists.
