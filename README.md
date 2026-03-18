@@ -1,13 +1,15 @@
-# asana-ai
+# AsanaAI
 
-Stub Python project. Described as an AI yoga/asana assistant, but none of that functionality exists.
+AI-powered yoga assistant for personalized asana guidance and pose correction.
 
-## What's actually here
+## About
+AsanaAI is an intelligent yoga companion that provides personalized asana recommendations, pose correction feedback, and guided practice sessions. It uses computer vision and AI to analyze body alignment, suggest modifications for different skill levels, and create custom yoga sequences.
 
-A single class in `src/core.py` (AsanaAi) with placeholder methods that each return a fixed dictionary without doing any real work. There is no pose detection, no yoga instruction, no computer vision - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No CV or fitness libraries are present.
+## Tech Stack
+- Python
+- Computer vision (MediaPipe, OpenCV)
+- LLM integration for guidance
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working yoga/asana functionality exists.
+Active development - core architecture and project structure established.
